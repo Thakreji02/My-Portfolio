@@ -1,5 +1,5 @@
 import React from "react";
-import hero from "../assets/hero.png";
+import hero from "../assets/dri.png";
 import jsi from "../assets/jsi.png";
 import react from "../assets/react.png";
 import tail from "../assets/tailwind.png";
@@ -21,10 +21,13 @@ function Hero() {
             <p className="md:text-2xl text-xl mb-4">
               Web Developer & Java Full Stack Developer
             </p>
-            <p className="mb-4">
-              I'm a passionate web developer with expertise in React, Next.js,
-              and modern web technologies. I love creating beautiful and
-              functional website that solve real world problems.
+            <p className="mb-4 text-justify">
+              MCA graduate with hands-on experience in Java, Spring Boot,
+              React.js, and MySQL. Developed and deployed multiple full-stack
+              projects including REST APIs and responsive web apps. Strong
+              foundation in OOPs, data structures, and database management.
+              Passionate about building scalable applications and eager to
+              contribute to a dynamic software development team.
             </p>
             <a
               href="/resume.pdf"
