@@ -14,8 +14,8 @@ function Project() {
       image: mpP,
       live: "https://mpwild-life.netlify.app/",
       github: "",
-      show:"on",
-      status:"done"
+      show: "on",
+      status: "done",
     },
     {
       title: "DocsFlow",
@@ -23,17 +23,17 @@ function Project() {
       image: docP,
       live: "live",
       github: "github",
-      show:"on",
-      status:"done"
+      show: "on",
+      status: "done",
     },
     {
       title: "My-Portfolio",
       des: "Welcome to my portfolio! I am an MCA graduate skilled in Java, Python, SQL, and web development, showcasing my projects and passion for technology.",
       image: protP,
-      live: "live",
+      live: "https://my-portfolio-dhiraj.netlify.app/",
       github: "github",
-      show:"on",
-      status:"done"
+      show: "on",
+      status: "done",
     },
     {
       title: "Fresh Mart",
@@ -41,8 +41,8 @@ function Project() {
       image: docP,
       live: "live",
       github: "github",
-      show:"on",
-      status:"pending"
+      show: "on",
+      status: "pending",
     },
     {
       title: "Person Management",
@@ -50,8 +50,8 @@ function Project() {
       image: javaP,
       live: "live",
       github: "github",
-      show:"off",
-      status:"done"
+      show: "off",
+      status: "done",
     },
   ];
   return (
