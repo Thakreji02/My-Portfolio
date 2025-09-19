@@ -3,6 +3,7 @@ import React from "react";
 import facebook from "../assets/facebook.png";
 import insta from "../assets/insta.png";
 import linkdin from "../assets/linkdin.png";
+import git from "../assets/github.png"
 
 import Lottie from "lottie-react";
 import contact from "../assets/contact.json";
@@ -24,14 +25,17 @@ function Contact() {
               to reach out!
             </p>
             <div className="flex space-x-2">
-              <a href="">
+              <a href="https://m.facebook.com/dheeraj.thakre.94/" target="_blank">
                 <img src={facebook} alt="" className="h-6 w-6" />
               </a>
-              <a href="">
+              <a href="https://www.instagram.com/dhiraj_thakre_02/" target="_blank">
                 <img src={insta} alt="" className="h-6 w-6" />
               </a>
-              <a href="">
+              <a href="https://www.linkedin.com/in/dhiraj-kant-7043a4258/" target="_blank">
                 <img src={linkdin} alt="" className="h-6 w-6" />
+              </a>
+              <a href="https://github.com/Thakreji02" target="_blank">
+                <img src={git} alt="" className="h-6 w-6" />
               </a>
             </div>
             <a href="mailto:thakredheeraj02@gmail.com">
