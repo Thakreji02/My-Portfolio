@@ -6,7 +6,7 @@ import tail from "../assets/tailwind.png";
 import face from "../assets/facebook.png";
 import insta from "../assets/insta.png";
 import link from "../assets/linkdin.png";
-import twit from "../assets/twitter.png";
+import twit from "../assets/github.png";
 
 function Hero() {
   return (
@@ -70,7 +70,7 @@ function Hero() {
         >
           <img src={link} alt="" className="w-15 hover:scale-102" />
         </a>
-        <a href="https://x.com/DhirajThakre02" target="blank">
+        <a href="https://github.com/Thakreji02" target="blank">
           <img src={twit} alt="" className="w-15  hover:scale-102" />
         </a>
       </div>

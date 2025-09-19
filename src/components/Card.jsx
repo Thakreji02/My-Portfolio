@@ -24,7 +24,7 @@ function Card({ item }) {
               Github
             </a>
           </button>
-          {item.status==="pending"?<p className="text-red-800 mt-4 ml-19">Pending</p>:<p className="text-green-900 mt-6 text-right"></p>}
+          {item.status==="pending"?<p className="text-red-800 mt-4 md:ml-19">Pending</p>:<p className="text-green-900 mt-6 text-right"></p>}
         </div>
       </div>
     </div>
