@@ -18,7 +18,7 @@ function About() {
       <div className="bg-gray-900 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-2">
-            <h3 className="text-center text-red-500">ABOUT ME</h3>
+            <h3 className="text-center text-2xl text-red-500">ABOUT ME</h3>
             <h1 className="text-3xl text-white font-bold">Hi, I'm Dhiraj Kant</h1>
             <p className="max-w-2xl text-xl text-gray-300 lg:mx-auto ">
               A Java Full Stack Developer & Frontend-Web Developer.
