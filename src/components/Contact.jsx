@@ -11,7 +11,7 @@ import contact from "../assets/contact.json";
 function Contact() {
   return (
     <section
-      className="z-40 bg-gray-800 relative py-10 px-5 md:px-0"
+      className="z-40 bg-gray-900 relative py-10 px-5 md:px-0"
       id="contact"
     >
       <div className="mb-16 max-w-7xl mx-auto ">

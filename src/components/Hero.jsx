@@ -1,4 +1,5 @@
 import React from "react";
+import { ReactTyped } from "react-typed";
 import hero from "../assets/dri.png";
 import jsi from "../assets/jsi.png";
 import react from "../assets/react.png";
@@ -18,16 +19,27 @@ function Hero() {
               Hi There, <br />
               I'm Dhiraj <span className="text-red-500">Kant</span>
             </h1>
-            <p className="md:text-2xl text-xl mb-4">
-              Web Developer & Java Full Stack Developer
+            <p className="md:text-2xl text-xl mb-4 font-semibold">
+              <ReactTyped
+                strings={[
+                  "I am a Java Developer",
+                  "I am a Frontend Developer",
+                  "REST API Developer",
+                ]}
+                typeSpeed={80} // typing speed
+                backSpeed={50} // deleting speed
+                backDelay={1500} // delay before deleting
+                loop // repeat forever
+              />
             </p>
             <p className="mb-4 text-justify">
-              MCA graduate with hands-on experience in Java, Spring Boot,
-              React.js, and MySQL. Developed and deployed multiple full-stack
-              projects including REST APIs and responsive web apps. Strong
-              foundation in OOPs, data structures, and database management.
-              Passionate about building scalable applications and eager to
-              contribute to a dynamic software development team.
+              MCA graduate with hands-on experience in Java Developer, Frontend
+              Developer, and Spring Boot & Rest API Developer . Developed and
+              deployed multiple full-stack projects including REST APIs and
+              responsive web apps. Strong foundation in OOPs, data structures,
+              and database management. Passionate about building scalable
+              applications and eager to contribute to a dynamic software
+              development team.
             </p>
             <a
               href="/resume.pdf"

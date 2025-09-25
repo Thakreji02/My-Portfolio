@@ -6,9 +6,9 @@ function Navbar() {
 
   const toggleMenu = () => setMobileMenuOen(!mobileMenuOpen);
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 lg:px-0 px-4">
+    <header className="sticky top-0 z-50 w-full border-b bg-gray-700 backdrop-blur supports-[backdrop-filter]:bg-background/60 lg:px-0 px-4">
       <div className="max-w-7xl mx-auto flex h-14 items-center">
-        <div className="md:mr-4 flex justify-between w-full">
+        <div className="md:mr-4 flex justify-between w-full text-white">
           <a
             href=""
             className="mr-6 flex items-center space-x-2 text-2xl font-bold"
@@ -16,7 +16,7 @@ function Navbar() {
             <span className="text-2xl font-bold text-red-500">Dhiraj👨‍🦱</span>
             Kant
           </a>
-          <nav className="md:flex hidden items-center space-x-6 text-lg font-medium">
+          <nav className="md:flex hidden items-center  space-x-6 text-lg font-medium">
             <a
               href="#home"
               className="transition-colors hover:text-foreground/80 text-foreground/60"
@@ -28,6 +28,12 @@ function Navbar() {
               className="transition-colors hover:text-foreground/80 text-foreground/60"
             >
               About
+            </a>
+            <a
+              href="#education"
+              className="transition-colors hover:text-foreground/80 text-foreground/60"
+            >
+              Education
             </a>
             <a
               href="#project"

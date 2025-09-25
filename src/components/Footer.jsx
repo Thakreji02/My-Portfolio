@@ -38,8 +38,10 @@ function Footer() {
                 <li className="hover:text-green-500">Home</li>
               </a>
               <a href="#about">
-                {" "}
                 <li className="hover:text-green-500">About</li>
+              </a>
+              <a href="#education">
+                <li className="hover:text-green-500">Education</li>
               </a>
               <a href="#project">
                 <li className="hover:text-green-500">Project</li>
@@ -52,7 +54,7 @@ function Footer() {
           <div>
             <h1 className="text-xl font-bold mb-4">Contact</h1>
             <p className="mb-2">Dhiraj Kant</p>
-            <p className="mb-2">Phone: +91 000000000</p>
+            <p className="mb-2">Phone: +91 9685419300</p>
             <p className="mb-2">Email: thakredheeraj02@gamil.com</p>
           </div>
         </div>

@@ -15,22 +15,22 @@ import python from "../assets/python.png";
 function About() {
   return (
     <div className="relative" id="about">
-      <div className="bg-gray-200 py-12">
+      <div className="bg-gray-900 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-2">
             <h3 className="text-center text-red-500">ABOUT ME</h3>
-            <h1 className="text-3xl font-bold">Hi, I'm Dhiraj Kant</h1>
-            <p className="max-w-2xl text-xl text-gray-600 lg:mx-auto ">
-              A Java Full Stack Developer & Web-Frontend Developer.
+            <h1 className="text-3xl text-white font-bold">Hi, I'm Dhiraj Kant</h1>
+            <p className="max-w-2xl text-xl text-gray-300 lg:mx-auto ">
+              A Java Full Stack Developer & Frontend-Web Developer.
             </p>
           </div>
           <div className="mt-10">
             <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 text-justify">
               <div>
-                <h3 className="text-gray-900 font-semibold text-2xl">
+                <h3 className="text-red-600 font-semibold text-2xl">
                   My Journey
                 </h3>
-                <p className="mt-4 text-lg text-gray-600">
+                <p className="mt-4 text-lg text-gray-300">
                   I am a passionate Java Full Stack Developer & Web
                   Developer-Frontend Developer with strong skills in building
                   scalable and user-friendly applications. On the frontend, I
@@ -44,7 +44,7 @@ function About() {
                   maintainable code and continuously improving my development
                   skills.
                 </p>
-                <div className="flex mt-5 gap-5 justify-center ml-0 lg:ml-20 bg-gray-800 max-w-70 lg:max-w-sm  rounded-full">
+                <div className="flex mt-5 gap-5 justify-center ml-0 lg:ml-20 bg-gray-200 max-w-70 lg:max-w-sm  rounded-full">
                   <img src={react} alt="" className="w-15 h-15" />
                   <img src={java} alt="" className="w-15 h-15" />
                   <img src={spring} alt="" className="w-15 h-15" />
@@ -54,7 +54,7 @@ function About() {
                 <h1 className="text-2xl font-semibold text-red-600">
                   Skills & Expertise
                 </h1>
-                <div className="flex items-center justify-center flex-wrap gap-3">
+                <div className="flex items-center justify-center flex-wrap gap-3 text-gray-300">
                   <div className="border border-red-300 shadow-md shadow-red-300 flex w-max items-center px-2 py-1 rounded-lg gap-1 hover:scale-102">
                     <img src={html1} alt="" className="w-10" />
                     <span className="font-semibold">HTML</span>

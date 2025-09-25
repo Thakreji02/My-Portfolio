@@ -56,7 +56,7 @@ function Project() {
     },
   ];
   return (
-    <section id="project" className="relative bg-gray-700 py-10 px-4">
+    <section id="project" className="relative bg-gray-900 py-10 px-4">
       <div className="mb-16 max-w-7xl mx-auto">
         <h2 className="text-3xl font-bold mb-8 text-white border-b border-red-500 w-max pb-4">
           My Project
